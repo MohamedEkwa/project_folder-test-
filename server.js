@@ -43,7 +43,7 @@ function callBack(req, res) {
 // POST an animal
 const data = [];
 
-app.post("/animal", addAnimal);
+app.post("/addanimal", addAnimal);
 
 function addAnimal(req, res) {
   data.push(req.body);
