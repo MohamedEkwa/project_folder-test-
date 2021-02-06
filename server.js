@@ -47,5 +47,7 @@ app.post("/animal", addAnimal);
 
 function addAnimal(req, res) {
   data.push(req.body);
+  res.send(data);
+
 }
 console.log(data);
